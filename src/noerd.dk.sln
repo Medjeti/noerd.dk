@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FCEA5823-E099-4790-AABD-4EAD3868693F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".common", ".common", "{A8CBCC54-9A2A-4CC2-A4BA-831FB54FBF17}"
+	ProjectSection(SolutionItems) = preProject
+		.common\GlobalAssemblyInfo.cs = .common\GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noerd.dk.Web.Umbraco", "noerd.dk.Web.Umbraco\noerd.dk.Web.Umbraco.csproj", "{E52FF18B-38FE-4300-B4F0-237268E11326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noerd.dk", "noerd.dk\noerd.dk.csproj", "{4DF03B58-FC22-4391-845A-BC0D9CA9659F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{E52FF18B-38FE-4300-B4F0-237268E11326}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF03B58-FC22-4391-845A-BC0D9CA9659F}.Staging|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
