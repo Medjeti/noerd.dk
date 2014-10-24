@@ -1,0 +1,41 @@
+// -------------------------------------------------------------------------
+// Configuratios, imports & modules
+// -------------------------------------------------------------------------
+		
+@import "compass";
+
+/* Sprite Setup */
+$spr-layout:smart; 
+
+@import "icons/*.png";
+@import "util/*.png";
+   
+
+// -------------------------------------------------------------------------
+// Variables
+// ------------------------------------------------------------------------- 
+
+
+// -------------------------------------------------------------------------
+// Imports
+// -------------------------------------------------------------------------
+
+@import "_base_default";
+@import "_base_typography";
+
+
+// DELETE�:
+body { 
+  background-color: #ececec;
+  color: red;
+}
+
+.util {
+  display: block;
+  @include util-sprite("blank", true)
+}
+
+.icon {
+  display: block;
+  @include icons-sprite("blank", true)
+}
